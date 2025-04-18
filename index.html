@@ -8,7 +8,7 @@
     <title>Avanti E-commerce</title>
   </head>
   <body>
-    <header>
+    <header class="shadow-sm bg-white pb-4">
       <div class="text-center text-white bg-primary px-2 py-1 text-sm">
         <p class="font-bold">
           Ganhe <span class="bg-[#6220c1] px-1 rounded-sm">R$10,00</span> de
@@ -17,30 +17,34 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-3 grid-rows-2 px-4 py-6">
-        <div class="flex items-center">
-          <button>
-            <img src="assets/icons/menu.svg" alt="Menu" />
-          </button>
-        </div>
-        <div class="flex items-center justify-center">
+      <div class="flex justify-between my-6 mx-5">
+        <button class="flex items-baseline gap-2">
+          <img class="md:h-[14px]" src="assets/icons/menu.svg" alt="Menu" />
+          <span class="text-sm font-bold hidden md:block"
+            >Todas as categorias</span
+          >
+        </button>
+
+        <div class="flex mx-2">
           <img src="assets/logo.svg" alt="Avanti" />
         </div>
-        <div class="flex items-center ml-auto">
-          <img src="assets/icons/cart-shopping.svg" alt="Carrinho" />
+
+        <div>
+          <img src="assets/icons/cart-shopping.svg" alt="Carrinho de compras" />
         </div>
-        <div
-          class="col-span-3 mt-4 flex justify-between rounded-xl items-center gap-2 border-2 py-2 px-4 border-[#DDDDDD]"
-        >
-          <input
-            class="w-full"
-            type="text"
-            placeholder="Digite aqui o que você procura"
-          />
-          <button>
-            <img src="assets/icons/search.svg" alt="Pesquisar" />
-          </button>
-        </div>
+      </div>
+
+      <div
+        class="flex mx-3 justify-between rounded-xl items-center gap-2 border-2 py-2 px-4 border-gray-200"
+      >
+        <input
+          class="w-full placeholder-black placeholder:font-semibold"
+          type="text"
+          placeholder="Digite aqui o que você procura"
+        />
+        <button>
+          <img src="assets/icons/search.svg" alt="Pesquisar" />
+        </button>
       </div>
     </header>
   </body>
