@@ -8,7 +8,7 @@
     <title>Avanti E-commerce</title>
   </head>
   <body>
-    <header class="shadow-sm bg-white pb-4">
+    <header class="shadow-sm bg-white">
       <div class="text-center text-white bg-primary px-2 py-1 text-sm">
         <p class="font-bold">
           Ganhe <span class="bg-[#6220c1] px-1 rounded-sm">R$10,00</span> de
@@ -16,35 +16,144 @@
           <span class="italic font-normal">DESCONTO10</span>
         </p>
       </div>
+      <!--header mobile-->
+      <div class="flex flex-col px-5 py-4 md:hidden">
+        <div class="flex justify-between items-center py-2">
+          <button class="">
+            <img src="assets/icons/menu.svg" alt="Menu" />
+          </button>
 
-      <div class="flex justify-between my-6 mx-5">
-        <button class="flex items-baseline gap-2">
-          <img class="md:h-[14px]" src="assets/icons/menu.svg" alt="Menu" />
-          <span class="text-sm font-bold hidden md:block"
-            >Todas as categorias</span
-          >
-        </button>
+          <div>
+            <img src="assets/logo.svg" alt="Avanti" />
+          </div>
 
-        <div class="flex mx-2">
-          <img src="assets/logo.svg" alt="Avanti" />
+          <div class="flex relative justify-end">
+            <img
+              src="assets/icons/cart-shopping.svg"
+              alt="Carrinho de compras"
+            />
+            <span
+              class="absolute flex items-center justify-center bg-primary rounded-xl w-5 h-5 -mr-2 -mt-2 text-white text-sm"
+              >2</span
+            >
+          </div>
         </div>
 
-        <div>
-          <img src="assets/icons/cart-shopping.svg" alt="Carrinho de compras" />
+        <div
+          class="flex justify-between rounded-xl items-center gap-2 border-2 py-2 px-4 border-gray-200 mt-4"
+        >
+          <input
+            class="w-full placeholder-black placeholder:font-semibold"
+            type="text"
+            placeholder="Digite aqui o que você procura"
+          />
+          <button>
+            <img src="assets/icons/search.svg" alt="Pesquisar" />
+          </button>
         </div>
       </div>
 
-      <div
-        class="flex mx-3 justify-between rounded-xl items-center gap-2 border-2 py-2 px-4 border-gray-200"
-      >
-        <input
-          class="w-full placeholder-black placeholder:font-semibold"
-          type="text"
-          placeholder="Digite aqui o que você procura"
-        />
-        <button>
-          <img src="assets/icons/search.svg" alt="Pesquisar" />
-        </button>
+      <!--header desktop-->
+      <div class="w-full hidden md:block py-4 px-5">
+        <div class="max-w-7xl mx-auto">
+          <div class="flex justify-between items-center">
+            <div class="flex items-center">
+              <div class="shrink-0">
+                <img class="w-full h-8" src="assets/logo.svg" alt="Avanti" />
+              </div>
+
+              <div
+                class="flex justify-between rounded-xl gap-2 border-2 py-2 px-4 mx-16 border-gray-200 w-[500px]"
+              >
+                <input
+                  class="w-full placeholder-black placeholder:font-semibold"
+                  type="text"
+                  placeholder="Digite aqui o que você procura"
+                />
+                <button>
+                  <img src="assets/icons/search.svg" alt="Pesquisar" />
+                </button>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-6">
+              <div class="flex space-x-2">
+                <img src="assets/icons/user.svg" alt="Usuário" />
+                <div class="flex flex-col text-sm font-medium leading-none">
+                  <span>Olá,<br />Nome cliente!</span>
+                </div>
+              </div>
+
+              <div class="flex relative justify-end shrink-0">
+                <img
+                  src="assets/icons/cart-shopping.svg"
+                  alt="Carrinho de compras"
+                />
+                <span
+                  class="absolute flex items-center justify-center bg-primary rounded-xl w-5 h-5 -mr-2 -mt-2 text-white text-sm"
+                  >2</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="flex mt-5 items-center justify-between">
+            <button
+              class="flex items-baseline gap-2 cursor-pointer transition-transform hover:scale-105"
+            >
+              <img class="h-[14px]" src="assets/icons/menu.svg" alt="Menu" />
+              <span class="text-sm font-bold">Todas as categorias</span>
+            </button>
+
+            <a
+              class="text-sm cursor-pointer transition-transform hover:scale-105"
+              href="#"
+            >
+              Departamento
+            </a>
+            <a
+              class="text-sm cursor-pointer transition-transform hover:scale-105"
+              href="#"
+            >
+              Departamento
+            </a>
+            <a
+              class="text-sm cursor-pointer transition-transform hover:scale-105"
+              href="#"
+            >
+              Departamento
+            </a>
+            <a
+              class="text-sm cursor-pointer transition-transform hover:scale-105"
+              href="#"
+            >
+              Departamento
+            </a>
+            <a
+              class="text-sm cursor-pointer transition-transform hover:scale-105"
+              href="#"
+            >
+              Departamento
+            </a>
+            <a
+              class="text-sm cursor-pointer transition-transform hover:scale-105 hidden lg:block"
+              href="#"
+            >
+              Departamento
+            </a>
+            <a
+              class="text-sm cursor-pointer transition-transform hover:scale-105 hidden lg:block"
+              href="#"
+            >
+              Departamento
+            </a>
+            <a
+              class="text-sm cursor-pointer transition-transform hover:scale-105 hidden lg:block"
+              href="#"
+            >
+              Departamento
+            </a>
+          </div>
+        </div>
       </div>
     </header>
   </body>
