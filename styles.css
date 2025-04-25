@@ -1,33 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 :root {
-  --white: #ffffff;
   --primary: #005cff;
-  --purple: #6220c1;
-}
-
-.text-primary {
-  color: var(--primary);
 }
 
 .bg-primary {
   background-color: var(--primary);
-}
-
-.text-secondary {
-  color: var(--secondary);
-}
-
-.bg-secondary {
-  background-color: var(--secondary);
-}
-
-.text-danger {
-  color: var(--danger);
-}
-
-.bg-danger {
-  background-color: var(--danger);
 }
 
 body {
