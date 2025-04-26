@@ -8,7 +8,7 @@
     <title>Avanti E-commerce</title>
   </head>
   <body>
-    <header class="shadow-sm bg-white">
+    <header class="shadow-sm bg-white fixed top-0 z-50 w-full">
       <div class="text-center text-white bg-primary px-2 py-1 text-sm">
         <p class="font-bold">
           Ganhe <span class="bg-[#6220c1] px-1 rounded-sm">R$10,00</span> de
@@ -157,467 +157,482 @@
       </div>
     </header>
 
-    <section class="bg-[#E7E7EA]">
-      <div
-        class="relative overflow-hidden h-[306px] max-w-7xl mx-auto flex justify-end items-center md:h-[510px]"
-      >
-        <img
-          class="absolute left-0 max-[575px]:left-[-25%] max-[450px]:left-[-35%] max-[1090px]:left-[-25%] h-full object-cover md:h-[510px]"
-          src="assets/images/top_banner.png"
-          alt="Oferta 50%"
-        />
-
+    <main class="md:pt-36 pt-40">
+      <section class="bg-[#E7E7EA]">
         <div
-          class="relative z-10 flex md:hidden flex-col items-center justify-center h-full space-y-2 px-4 text-center max-[767px]:pr-20 max-[575px]:px-4"
+          class="relative overflow-hidden h-[306px] max-w-7xl mx-auto flex justify-end items-center md:h-[510px]"
         >
-          <h3 class="text-4xl font-bold">
-            SUPER <span class="font-light">SALE</span>
-          </h3>
-          <span class="text-xs font-bold text-primary">
-            SELECTED ITEMS UP TO
-          </span>
-          <h4 class="text-2xl font-bold text-primary">50%OFF</h4>
-        </div>
-
-        <div
-          class="space-y-3 md:mx-5 z-10 hidden md:flex relative flex-col text-center items-center justify-center h-full"
-        >
-          <h3 class="font-bold text-8xl">
-            SUPER<span class="font-light">SALE</span>
-          </h3>
-          <span class="font-bold text-2xl text-primary"
-            >ITENS SELECIONADOS COM ATÉ</span
-          >
-          <h4 class="text-6xl font-bold text-primary">50%OFF</h4>
-        </div>
-      </div>
-    </section>
-
-    <section class="card-section max-w-7xl mx-auto mt-16 space-y-5">
-      <div class="flex justify-between mx-5">
-        <h2 class="font-bold text-xl">Lançamentos</h2>
-        <a class="font-bold text-sm" href="#">Ver mais</a>
-      </div>
-
-      <div class="md:mx-5 relative">
-        <button
-          class="scroll-btn scroll-left hidden md:flex absolute left-[-15px] top-1/2 z-10 bg-white border border-[#005CFF] shadow-md p-2 rounded-full"
-        >
-          <img src="assets/icons/arrow.svg" />
-        </button>
-
-        <div
-          class="cards-container flex overflow-x-auto gap-4 px-4 md:px-0 no-scrollbar scroll-smooth [&::-webkit-scrollbar]:hidden"
-        ></div>
-
-        <button
-          class="scroll-btn scroll-right hidden md:flex absolute right-[-15px] top-1/2 z-10 bg-white border border-[#005CFF] shadow-md p-2 rounded-full"
-        >
-          <img class="rotate-180" src="assets/icons/arrow.svg" />
-        </button>
-      </div>
-    </section>
-
-    <section class="flex flex-col mt-12 gap-9 md:flex-row max-w-7xl mx-auto">
-      <div
-        class="flex justify-center items-center bg-[#c2c2c2] md:w-[60%] md:ml-10"
-      >
-        <img
-          class="w-[390px] h-[390px] md:w-[600px] md:h-[600px] md:my-20 object-contain"
-          src="assets/images/mug_mockup_1.png"
-          alt="Avanti xícara"
-        />
-      </div>
-      <div class="flex flex-col justify-center gap-5 px-6 md:w-[40%] md:mr-10">
-        <h2 class="text-2xl md:text-3xl font-bold">LOREM IPSUM</h2>
-        <p class="hidden md:block md:text-lg">
-          Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
-          finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur
-          volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra
-          magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor
-          tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla
-          magna consequat interdum. Fusce sagittis elit a libero commodo egestas
-          efficitur id augue. <br /><br />Duis consectetur metus nec lacus
-          auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut
-          eleifend viverra. Cras efficitur volutpat dui, in lobortis metus
-          lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula
-          hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec
-          sollicitudin euismod orci, auctor fringilla magna consequat interdum.
-          Fusce sagittis elit a libero commodo egestas efficitur id augue.
-        </p>
-        <p class="text-sm md:hidden">
-          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-          montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim.<br /><br />Cras dignissim est et pellentesque tincidunt.
-          Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi
-          iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin porta
-          nec eu enim. Ut fermentum scelerisque tortor mollis volutpat. Mauris
-          iaculis magna nisl, vel porttitor augue placerat et.
-        </p>
-      </div>
-    </section>
-
-    <section class="bg-[#DEDEDE] mt-12 md:mt-14 md:pb-0 pb-7">
-      <div class="flex flex-col md:flex-row-reverse md:gap-9 max-w-7xl mx-auto">
-        <div class="flex justify-center items-center md:w-[60%] py-7 px-5">
           <img
-            class="w-[390px] h-[390px] md:w-[652px] md:h-[728px] object-cover"
-            src="assets/images/mug_mockup_2.png"
+            class="absolute left-0 max-[575px]:left-[-25%] max-[450px]:left-[-35%] max-[1090px]:left-[-25%] h-full object-cover md:h-[510px]"
+            src="assets/images/top_banner.png"
+            alt="Oferta 50%"
+          />
+
+          <div
+            class="relative z-10 flex md:hidden flex-col items-center justify-center h-full space-y-2 px-4 text-center max-[767px]:pr-20 max-[575px]:px-4"
+          >
+            <h3 class="text-4xl font-bold">
+              SUPER <span class="font-light">SALE</span>
+            </h3>
+            <span class="text-xs font-bold text-primary">
+              SELECTED ITEMS UP TO
+            </span>
+            <h4 class="text-2xl font-bold text-primary">50%OFF</h4>
+          </div>
+
+          <div
+            class="space-y-3 md:mx-5 z-10 hidden md:flex relative flex-col text-center items-center justify-center h-full"
+          >
+            <h3 class="font-bold text-8xl">
+              SUPER<span class="font-light">SALE</span>
+            </h3>
+            <span class="font-bold text-2xl text-primary"
+              >ITENS SELECIONADOS COM ATÉ</span
+            >
+            <h4 class="text-6xl font-bold text-primary">50%OFF</h4>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-section max-w-7xl mx-auto mt-16 space-y-5">
+        <div class="flex justify-between mx-5">
+          <h2 class="font-bold text-xl">Lançamentos</h2>
+          <a class="font-bold text-sm" href="#">Ver mais</a>
+        </div>
+
+        <div class="md:mx-5 relative">
+          <button
+            class="scroll-btn scroll-left hidden md:flex absolute left-[-15px] top-1/2 z-10 bg-white border border-[#005CFF] shadow-md p-2 rounded-full"
+          >
+            <img src="assets/icons/arrow.svg" />
+          </button>
+
+          <div
+            class="cards-container flex overflow-x-auto gap-4 px-4 md:px-0 no-scrollbar scroll-smooth [&::-webkit-scrollbar]:hidden"
+          ></div>
+
+          <button
+            class="scroll-btn scroll-right hidden md:flex absolute right-[-15px] top-1/2 z-10 bg-white border border-[#005CFF] shadow-md p-2 rounded-full"
+          >
+            <img class="rotate-180" src="assets/icons/arrow.svg" />
+          </button>
+        </div>
+      </section>
+
+      <section class="flex flex-col mt-12 gap-9 md:flex-row max-w-7xl mx-auto">
+        <div
+          class="flex justify-center items-center bg-[#c2c2c2] md:w-[60%] md:ml-10"
+        >
+          <img
+            class="w-[390px] h-[390px] md:w-[600px] md:h-[600px] md:my-20 object-contain"
+            src="assets/images/mug_mockup_1.png"
             alt="Avanti xícara"
           />
         </div>
-        <div class="flex flex-col justify-center md:py-5 px-5 gap-5 md:w-[40%]">
-          <h2
-            class="text-2xl md:text-3xl font-bold md:text-[#4F4F4F] text-center"
+        <div
+          class="flex flex-col justify-center gap-5 px-6 md:w-[40%] md:mr-10"
+        >
+          <h2 class="text-2xl md:text-3xl font-bold">LOREM IPSUM</h2>
+          <p class="hidden md:block md:text-lg">
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+            finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+            efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+            lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+            fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod
+            orci, auctor fringilla magna consequat interdum. Fusce sagittis elit
+            a libero commodo egestas efficitur id augue. <br /><br />Duis
+            consectetur metus nec lacus auctor dignissim. Mauris vitae finibus
+            dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur
+            volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia
+            pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla
+            porttitor tortor eget lacinia. Donec sollicitudin euismod orci,
+            auctor fringilla magna consequat interdum. Fusce sagittis elit a
+            libero commodo egestas efficitur id augue.
+          </p>
+          <p class="text-sm md:hidden">
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+            pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+            enim.<br /><br />Cras dignissim est et pellentesque tincidunt.
+            Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi
+            iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin
+            porta nec eu enim. Ut fermentum scelerisque tortor mollis volutpat.
+            Mauris iaculis magna nisl, vel porttitor augue placerat et.
+          </p>
+        </div>
+      </section>
+
+      <section class="bg-[#DEDEDE] mt-12 md:mt-14 md:pb-0 pb-7">
+        <div
+          class="flex flex-col md:flex-row-reverse md:gap-9 max-w-7xl mx-auto"
+        >
+          <div class="flex justify-center items-center md:w-[60%] py-7 px-5">
+            <img
+              class="w-[390px] h-[390px] md:w-[652px] md:h-[728px] object-cover"
+              src="assets/images/mug_mockup_2.png"
+              alt="Avanti xícara"
+            />
+          </div>
+          <div
+            class="flex flex-col justify-center md:py-5 px-5 gap-5 md:w-[40%]"
           >
-            LOREM IPSUM
-          </h2>
-          <div class="flex flex-col gap-5">
-            <div class="flex space-x-[14px] items-center">
-              <div
-                class="bg-primary rounded-full w-[60px] h-[60px] md:min-w-[90px] md:min-h-[90px] min-w-[60px] min-h-[60px] flex items-center justify-center"
-              >
-                <img
-                  class="w-[30px] h-[30px] md:w-11 md:h-11"
-                  src="assets/icons/map-pin.svg"
-                  alt="map-pin"
-                />
+            <h2
+              class="text-2xl md:text-3xl font-bold md:text-[#4F4F4F] text-center"
+            >
+              LOREM IPSUM
+            </h2>
+            <div class="flex flex-col gap-5">
+              <div class="flex space-x-[14px] items-center">
+                <div
+                  class="bg-primary rounded-full w-[60px] h-[60px] md:min-w-[90px] md:min-h-[90px] min-w-[60px] min-h-[60px] flex items-center justify-center"
+                >
+                  <img
+                    class="w-[30px] h-[30px] md:w-11 md:h-11"
+                    src="assets/icons/map-pin.svg"
+                    alt="map-pin"
+                  />
+                </div>
+                <p class="text-xs md:text-lg md:text-[#4F4F4F]">
+                  Aenean massa. Cum sociis natoque penatibus et magnis dis
+                  parturient montes, nascetur ridiculus mus. Donec quam felis,
+                  ultricies nec, pellentesque eu, pretium quis, sem.
+                </p>
               </div>
-              <p class="text-xs md:text-lg md:text-[#4F4F4F]">
-                Aenean massa. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem.
-              </p>
             </div>
-          </div>
-          <div class="flex flex-col gap-5">
-            <div class="flex space-x-[14px] items-center">
-              <div
-                class="bg-primary rounded-full w-[60px] h-[60px] md:min-w-[90px] md:min-h-[90px] min-w-[60px] min-h-[60px] flex items-center justify-center"
-              >
-                <img
-                  class="w-[30px] h-[30px] md:w-11 md:h-11"
-                  src="assets/icons/map-pin.svg"
-                  alt="map-pin"
-                />
+            <div class="flex flex-col gap-5">
+              <div class="flex space-x-[14px] items-center">
+                <div
+                  class="bg-primary rounded-full w-[60px] h-[60px] md:min-w-[90px] md:min-h-[90px] min-w-[60px] min-h-[60px] flex items-center justify-center"
+                >
+                  <img
+                    class="w-[30px] h-[30px] md:w-11 md:h-11"
+                    src="assets/icons/map-pin.svg"
+                    alt="map-pin"
+                  />
+                </div>
+                <p class="text-xs md:text-lg md:text-[#4F4F4F]">
+                  Aenean massa. Cum sociis natoque penatibus et magnis dis
+                  parturient montes, nascetur ridiculus mus. Donec quam felis,
+                  ultricies nec, pellentesque eu, pretium quis, sem.
+                </p>
               </div>
-              <p class="text-xs md:text-lg md:text-[#4F4F4F]">
-                Aenean massa. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem.
-              </p>
             </div>
-          </div>
-          <div class="flex flex-col gap-5">
-            <div class="flex space-x-[14px] items-center">
-              <div
-                class="bg-primary rounded-full w-[60px] h-[60px] md:min-w-[90px] md:min-h-[90px] min-w-[60px] min-h-[60px] flex items-center justify-center"
-              >
-                <img
-                  class="w-[30px] h-[30px] md:w-11 md:h-11"
-                  src="assets/icons/map-pin.svg"
-                  alt="map-pin"
-                />
+            <div class="flex flex-col gap-5">
+              <div class="flex space-x-[14px] items-center">
+                <div
+                  class="bg-primary rounded-full w-[60px] h-[60px] md:min-w-[90px] md:min-h-[90px] min-w-[60px] min-h-[60px] flex items-center justify-center"
+                >
+                  <img
+                    class="w-[30px] h-[30px] md:w-11 md:h-11"
+                    src="assets/icons/map-pin.svg"
+                    alt="map-pin"
+                  />
+                </div>
+                <p class="text-xs md:text-lg md:text-[#4F4F4F]">
+                  Aenean massa. Cum sociis natoque penatibus et magnis dis
+                  parturient montes, nascetur ridiculus mus. Donec quam felis,
+                  ultricies nec, pellentesque eu, pretium quis, sem.
+                </p>
               </div>
-              <p class="text-xs md:text-lg md:text-[#4F4F4F]">
-                Aenean massa. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem.
-              </p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="flex flex-col mt-12 gap-9 md:flex-row max-w-7xl mx-auto">
-      <div
-        class="flex justify-center items-center bg-[#c2c2c2] md:w-[60%] md:ml-10"
-      >
-        <img
-          class="w-[390px] h-[390px] md:w-[600px] md:h-[600px] md:my-20 object-contain"
-          src="assets/images/mug_mockup_1.png"
-          alt="Avanti xícara"
-        />
-      </div>
-      <div class="flex flex-col justify-center gap-5 px-6 md:w-[40%] md:mr-10">
-        <h2 class="text-2xl md:text-3xl font-bold">LOREM IPSUM</h2>
-        <p class="hidden md:block md:text-lg">
-          Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
-          finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur
-          volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra
-          magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor
-          tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla
-          magna consequat interdum. Fusce sagittis elit a libero commodo egestas
-          efficitur id augue. <br /><br />Duis consectetur metus nec lacus
-          auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut
-          eleifend viverra. Cras efficitur volutpat dui, in lobortis metus
-          lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula
-          hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec
-          sollicitudin euismod orci, auctor fringilla magna consequat interdum.
-          Fusce sagittis elit a libero commodo egestas efficitur id augue.
-        </p>
-        <p class="text-sm md:hidden">
-          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-          montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim.<br /><br />Cras dignissim est et pellentesque tincidunt.
-          Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi
-          iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin porta
-          nec eu enim. Ut fermentum scelerisque tortor mollis volutpat. Mauris
-          iaculis magna nisl, vel porttitor augue placerat et.
-        </p>
-      </div>
-    </section>
-
-    <section
-      class="card-section max-w-7xl mx-auto mt-16 space-y-5 hidden md:block"
-    >
-      <div class="flex justify-between mx-5">
-        <h2 class="font-bold text-xl">Lançamentos</h2>
-        <a class="font-bold text-sm" href="#">Ver mais</a>
-      </div>
-
-      <div class="md:mx-5 relative">
-        <button
-          class="scroll-btn scroll-left hidden md:flex absolute left-[-15px] top-1/2 z-10 bg-white border border-[#005CFF] shadow-md p-2 rounded-full"
-        >
-          <img src="assets/icons/arrow.svg" />
-        </button>
-
+      <section class="flex flex-col mt-12 gap-9 md:flex-row max-w-7xl mx-auto">
         <div
-          class="cards-container flex overflow-x-auto space-x-4 no-scrollbar scroll-smooth [&::-webkit-scrollbar]:hidden"
-        ></div>
-
-        <button
-          class="scroll-btn scroll-right hidden md:flex absolute right-[-15px] top-1/2 z-10 bg-white border border-[#005CFF] shadow-md p-2 rounded-full"
+          class="flex justify-center items-center bg-[#c2c2c2] md:w-[60%] md:ml-10"
         >
-          <img class="rotate-180" src="assets/icons/arrow.svg" />
-        </button>
-      </div>
-    </section>
-
-    <section
-      class="relative md:mt-16 mt-14 bg-center bg-cover h-[449px] md:h-[660px] bg-[url('assets/images/background_banner.png')]"
-    >
-      <div
-        class="absolute font-semibold top-1/2 w-full -translate-y-1/2 bg-primary text-white md:text-3xl md:font-normal md:py-12 text-center py-5"
-      >
-        Entre em contato conosco e verifique a disponibilidade para sua região!
-      </div>
-    </section>
-
-    <section class="mt-12 md:mt-14 mx-auto max-w-7xl">
-      <h3 class="text-xl font-bold text-center">
-        Cadastre-se na nossa <span class="text-primary">newsletter</span>
-      </h3>
-      <div
-        class="flex mt-6 flex-col md:flex-row md:space-x-6 bg-[#DEDEDE] mx-5 rounded-lg items-center justify-center space-y-4 md:py-16 py-9 px-28 max-[1025px]:px-4"
-      >
-        <input
-          class="bg-[#FFFFFF] rounded-lg placeholder-[#303030] p-3 text-sm w-full outline-none"
-          type="text"
-          placeholder="Digite seu nome"
-        />
-        <input
-          class="bg-[#FFFFFF] rounded-lg placeholder-[#303030] p-3 text-sm w-full outline-none"
-          type="text"
-          placeholder="Digite seu e-mail"
-        />
-        <label class="flex text-gray-500 font-bold text-xs space-x-2">
-          <input type="checkbox" />
-          <span class="whitespace-nowrap max-[950px]:whitespace-normal">
-            Estou de acordo com a
-            <a class="underline" href="#">Política de Privacidade</a>
-          </span>
-        </label>
-        <button
-          class="bg-primary w-full md:w-auto text-white rounded-lg px-6 py-4"
+          <img
+            class="w-[390px] h-[390px] md:w-[600px] md:h-[600px] md:my-20 object-contain"
+            src="assets/images/mug_mockup_1.png"
+            alt="Avanti xícara"
+          />
+        </div>
+        <div
+          class="flex flex-col justify-center gap-5 px-6 md:w-[40%] md:mr-10"
         >
-          Cadastrar
-        </button>
-      </div>
-    </section>
+          <h2 class="text-2xl md:text-3xl font-bold">LOREM IPSUM</h2>
+          <p class="hidden md:block md:text-lg">
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+            finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+            efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+            lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+            fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod
+            orci, auctor fringilla magna consequat interdum. Fusce sagittis elit
+            a libero commodo egestas efficitur id augue. <br /><br />Duis
+            consectetur metus nec lacus auctor dignissim. Mauris vitae finibus
+            dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur
+            volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia
+            pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla
+            porttitor tortor eget lacinia. Donec sollicitudin euismod orci,
+            auctor fringilla magna consequat interdum. Fusce sagittis elit a
+            libero commodo egestas efficitur id augue.
+          </p>
+          <p class="text-sm md:hidden">
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+            pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+            enim.<br /><br />Cras dignissim est et pellentesque tincidunt.
+            Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi
+            iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin
+            porta nec eu enim. Ut fermentum scelerisque tortor mollis volutpat.
+            Mauris iaculis magna nisl, vel porttitor augue placerat et.
+          </p>
+        </div>
+      </section>
 
-    <footer class="mt-10">
-      <div class="bg-[#F5F5F5]">
-        <div class="flex flex-col items-center">
-          <div class="flex gap-10 mx-5">
-            <div
-              class="flex flex-col items-center md:items-start mt-10 md:mt-16 gap-10 md:min-w-40"
-            >
-              <img src="assets/logo.svg" alt="Avanti" />
+      <section
+        class="card-section max-w-7xl mx-auto mt-16 space-y-5 hidden md:block"
+      >
+        <div class="flex justify-between mx-5">
+          <h2 class="font-bold text-xl">Lançamentos</h2>
+          <a class="font-bold text-sm" href="#">Ver mais</a>
+        </div>
 
-              <!-- redes sociais -->
-              <div class="flex gap-10 justify-center">
-                <img src="assets/icons/instagram.svg" alt="Instagram" />
-                <img src="assets/icons/facebook.svg" alt="Facebook" />
-                <img src="assets/icons/youtube.svg" alt="YouTube" />
-                <img src="assets/icons/tiktok.svg" alt="TikTok" />
+        <div class="md:mx-5 relative">
+          <button
+            class="scroll-btn scroll-left hidden md:flex absolute left-[-15px] top-1/2 z-10 bg-white border border-[#005CFF] shadow-md p-2 rounded-full"
+          >
+            <img src="assets/icons/arrow.svg" />
+          </button>
+
+          <div
+            class="cards-container flex overflow-x-auto space-x-4 no-scrollbar scroll-smooth [&::-webkit-scrollbar]:hidden"
+          ></div>
+
+          <button
+            class="scroll-btn scroll-right hidden md:flex absolute right-[-15px] top-1/2 z-10 bg-white border border-[#005CFF] shadow-md p-2 rounded-full"
+          >
+            <img class="rotate-180" src="assets/icons/arrow.svg" />
+          </button>
+        </div>
+      </section>
+
+      <section
+        class="relative md:mt-16 mt-14 bg-center bg-cover h-[449px] md:h-[660px] bg-[url('assets/images/background_banner.png')]"
+      >
+        <div
+          class="absolute font-semibold top-1/2 w-full -translate-y-1/2 bg-primary text-white md:text-3xl md:font-normal md:py-12 text-center py-5"
+        >
+          Entre em contato conosco e verifique a disponibilidade para sua
+          região!
+        </div>
+      </section>
+
+      <section class="mt-12 md:mt-14 mx-auto max-w-7xl">
+        <h3 class="text-xl font-bold text-center">
+          Cadastre-se na nossa <span class="text-primary">newsletter</span>
+        </h3>
+        <div
+          class="flex mt-6 flex-col md:flex-row md:space-x-6 bg-[#DEDEDE] mx-5 rounded-lg items-center justify-center space-y-4 md:py-16 py-9 px-28 max-[1025px]:px-4"
+        >
+          <input
+            class="bg-[#FFFFFF] rounded-lg placeholder-[#303030] p-3 text-sm w-full outline-none"
+            type="text"
+            placeholder="Digite seu nome"
+          />
+          <input
+            class="bg-[#FFFFFF] rounded-lg placeholder-[#303030] p-3 text-sm w-full outline-none"
+            type="text"
+            placeholder="Digite seu e-mail"
+          />
+          <label class="flex text-gray-500 font-bold text-xs space-x-2">
+            <input type="checkbox" />
+            <span class="whitespace-nowrap max-[950px]:whitespace-normal">
+              Estou de acordo com a
+              <a class="underline" href="#">Política de Privacidade</a>
+            </span>
+          </label>
+          <button
+            class="bg-primary w-full md:w-auto text-white rounded-lg px-6 py-4"
+          >
+            Cadastrar
+          </button>
+        </div>
+      </section>
+
+      <footer class="mt-10">
+        <div class="bg-[#F5F5F5]">
+          <div class="flex flex-col items-center">
+            <div class="flex gap-10 mx-5">
+              <div
+                class="flex flex-col items-center md:items-start mt-10 md:mt-16 gap-10 md:min-w-40"
+              >
+                <img src="assets/logo.svg" alt="Avanti" />
+
+                <!-- redes sociais -->
+                <div class="flex gap-10 justify-center">
+                  <img src="assets/icons/instagram.svg" alt="Instagram" />
+                  <img src="assets/icons/facebook.svg" alt="Facebook" />
+                  <img src="assets/icons/youtube.svg" alt="YouTube" />
+                  <img src="assets/icons/tiktok.svg" alt="TikTok" />
+                </div>
               </div>
-            </div>
 
-            <div
-              class="hidden md:flex justify-center gap-24 mt-16 text-gray-700"
-            >
-              <!-- Institucional -->
-              <div class="flex flex-col gap-2">
-                <h4 class="font-bold mb-[11px]">Institucional</h4>
-                <a class="text-sm" href="#">Sobre Nós</a>
-                <a class="text-sm" href="#">Nossas Lojas</a>
-                <a class="text-sm" href="#">Privacidade e Segurança</a>
-                <a class="text-sm" href="#">Termos e Condições</a>
-              </div>
+              <div
+                class="hidden md:flex justify-center gap-24 mt-16 text-gray-700"
+              >
+                <!-- Institucional -->
+                <div class="flex flex-col gap-2">
+                  <h4 class="font-bold mb-[11px]">Institucional</h4>
+                  <a class="text-sm" href="#">Sobre Nós</a>
+                  <a class="text-sm" href="#">Nossas Lojas</a>
+                  <a class="text-sm" href="#">Privacidade e Segurança</a>
+                  <a class="text-sm" href="#">Termos e Condições</a>
+                </div>
 
-              <!-- Central de Ajuda -->
-              <div class="flex flex-col gap-2">
-                <h4 class="font-bold mb-[11px]">Central de ajuda</h4>
-                <a class="text-sm" href="#">Fale Conosco</a>
-                <a class="text-sm" href="#">Frete e Entrega</a>
-                <a class="text-sm" href="#">Trocas e Devoluções</a>
-                <a class="text-sm" href="#">Formas de Pagamento</a>
-                <a class="text-sm" href="#">FAQ</a>
-              </div>
+                <!-- Central de Ajuda -->
+                <div class="flex flex-col gap-2">
+                  <h4 class="font-bold mb-[11px]">Central de ajuda</h4>
+                  <a class="text-sm" href="#">Fale Conosco</a>
+                  <a class="text-sm" href="#">Frete e Entrega</a>
+                  <a class="text-sm" href="#">Trocas e Devoluções</a>
+                  <a class="text-sm" href="#">Formas de Pagamento</a>
+                  <a class="text-sm" href="#">FAQ</a>
+                </div>
 
-              <!-- Atendimento -->
-              <div class="flex flex-col gap-2">
-                <h4 class="font-bold mb-[11px]">Atendimento</h4>
-                <p class="text-sm font-bold">
-                  Telefone:
-                  <span class="font-normal">(00) 1234-5678</span>
-                </p>
-                <p class="text-sm font-bold">
-                  E-mail:
-                  <span class="font-normal">exemplo@exemplo.com.br</span>
-                </p>
-                <div class="text-sm font-bold">
-                  Horário de atendimento:<br />
-                  <span class="font-normal">
-                    Segunda a Sábado: 07h00 às 23h00<br />
-                    Domingos e Feriados: 07h00 às 21h00
-                  </span>
+                <!-- Atendimento -->
+                <div class="flex flex-col gap-2">
+                  <h4 class="font-bold mb-[11px]">Atendimento</h4>
+                  <p class="text-sm font-bold">
+                    Telefone:
+                    <span class="font-normal">(00) 1234-5678</span>
+                  </p>
+                  <p class="text-sm font-bold">
+                    E-mail:
+                    <span class="font-normal">exemplo@exemplo.com.br</span>
+                  </p>
+                  <div class="text-sm font-bold">
+                    Horário de atendimento:<br />
+                    <span class="font-normal">
+                      Segunda a Sábado: 07h00 às 23h00<br />
+                      Domingos e Feriados: 07h00 às 21h00
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- acordeon -->
-          <div class="w-full mt-12 md:hidden">
-            <div class="border-t border-[#DDDDDD] px-4">
-              <button
-                class="w-full flex justify-between items-center py-4 text-left font-bold text-sm"
-              >
-                Institucional
-                <img
-                  class="transition-transform duration-300 ease-in-out"
-                  src="assets/icons/chevron.svg"
-                  alt="Toggle"
-                />
-              </button>
-              <div
-                id="accordion-1"
-                class="overflow-hidden max-h-0 transition-all duration-300 ease-in-out flex flex-col gap-1 text-gray-600"
-              >
-                <a class="text-sm" href="#">Sobre Nós</a>
-                <a class="text-sm" href="#">Nossas Lojas</a>
-                <a class="text-sm" href="#">Privacidade e Segurança</a>
-                <a class="text-sm" href="#">Termos e Condições</a>
-              </div>
-            </div>
-
-            <div class="border-t border-[#DDDDDD] px-4">
-              <button
-                class="w-full flex justify-between items-center py-4 text-left font-bold text-sm"
-              >
-                Central de ajuda
-                <img
-                  class="transition-transform duration-300 ease-in-out"
-                  src="assets/icons/chevron.svg"
-                  alt="Toggle"
-                />
-              </button>
-              <div
-                id="accordion-2"
-                class="overflow-hidden max-h-0 transition-all duration-300 ease-in-out flex flex-col gap-1 text-gray-600"
-              >
-                <a class="text-sm" href="#">Fale Conosco</a>
-                <a class="text-sm" href="#">Frete e Entrega</a>
-                <a class="text-sm" href="#">Trocas e Devoluções</a>
-                <a class="text-sm" href="#">Formas de Pagamento</a>
-                <a class="text-sm" href="#">FAQ</a>
-              </div>
-            </div>
-
-            <div class="border-y border-[#DDDDDD] px-4">
-              <button
-                class="w-full flex justify-between items-center py-4 text-left font-bold text-sm"
-              >
-                Atendimento
-                <img
-                  class="transition-transform duration-300 ease-in-out"
-                  src="assets/icons/chevron.svg"
-                  alt="Toggle"
-                />
-              </button>
-              <div
-                id="accordion-3"
-                class="overflow-hidden max-h-0 transition-all duration-300 ease-in-out flex flex-col gap-1 text-gray-600"
-              >
-                <a class="text-sm font-bold" href="#"
-                  >Telefone:<span class="font-normal"> (00) 1234-5678</span></a
+            <!-- acordeon -->
+            <div class="w-full mt-12 md:hidden">
+              <div class="border-t border-[#DDDDDD] px-4">
+                <button
+                  class="w-full flex justify-between items-center py-4 text-left font-bold text-sm"
                 >
-                <a class="text-sm font-bold" href="#"
-                  >Email:<span class="font-normal">
-                    exemplo@exemplo.com.br</span
-                  ></a
+                  Institucional
+                  <img
+                    class="transition-transform duration-300 ease-in-out"
+                    src="assets/icons/chevron.svg"
+                    alt="Toggle"
+                  />
+                </button>
+                <div
+                  id="accordion-1"
+                  class="overflow-hidden max-h-0 transition-all duration-300 ease-in-out flex flex-col gap-1 text-gray-600"
                 >
-                <a class="text-sm font-bold" href="#"
-                  >Horário de atendimento:<br />
-                  <span class="font-normal">
-                    Segunda a Sábado: 07h00 às 23h00<br />
-                    Domingos e Feriados: 07h00 às 21h00
-                  </span>
-                </a>
+                  <a class="text-sm" href="#">Sobre Nós</a>
+                  <a class="text-sm" href="#">Nossas Lojas</a>
+                  <a class="text-sm" href="#">Privacidade e Segurança</a>
+                  <a class="text-sm" href="#">Termos e Condições</a>
+                </div>
+              </div>
+
+              <div class="border-t border-[#DDDDDD] px-4">
+                <button
+                  class="w-full flex justify-between items-center py-4 text-left font-bold text-sm"
+                >
+                  Central de ajuda
+                  <img
+                    class="transition-transform duration-300 ease-in-out"
+                    src="assets/icons/chevron.svg"
+                    alt="Toggle"
+                  />
+                </button>
+                <div
+                  id="accordion-2"
+                  class="overflow-hidden max-h-0 transition-all duration-300 ease-in-out flex flex-col gap-1 text-gray-600"
+                >
+                  <a class="text-sm" href="#">Fale Conosco</a>
+                  <a class="text-sm" href="#">Frete e Entrega</a>
+                  <a class="text-sm" href="#">Trocas e Devoluções</a>
+                  <a class="text-sm" href="#">Formas de Pagamento</a>
+                  <a class="text-sm" href="#">FAQ</a>
+                </div>
+              </div>
+
+              <div class="border-y border-[#DDDDDD] px-4">
+                <button
+                  class="w-full flex justify-between items-center py-4 text-left font-bold text-sm"
+                >
+                  Atendimento
+                  <img
+                    class="transition-transform duration-300 ease-in-out"
+                    src="assets/icons/chevron.svg"
+                    alt="Toggle"
+                  />
+                </button>
+                <div
+                  id="accordion-3"
+                  class="overflow-hidden max-h-0 transition-all duration-300 ease-in-out flex flex-col gap-1 text-gray-600"
+                >
+                  <a class="text-sm font-bold" href="#"
+                    >Telefone:<span class="font-normal">
+                      (00) 1234-5678</span
+                    ></a
+                  >
+                  <a class="text-sm font-bold" href="#"
+                    >Email:<span class="font-normal">
+                      exemplo@exemplo.com.br</span
+                    ></a
+                  >
+                  <a class="text-sm font-bold" href="#"
+                    >Horário de atendimento:<br />
+                    <span class="font-normal">
+                      Segunda a Sábado: 07h00 às 23h00<br />
+                      Domingos e Feriados: 07h00 às 21h00
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <!-- pagamentos -->
-          <div class="mt-12 mb-10 flex flex-wrap gap-8 justify-center px-12">
-            <img src="assets/icons/payment/amex.svg" />
-            <img src="assets/icons/payment/mastercard.svg" />
-            <img src="assets/icons/payment/visa.svg" />
-            <img src="assets/icons/payment/hipercard.svg" />
-            <img src="assets/icons/payment/elo.svg" />
-            <img src="assets/icons/payment/express.svg" />
-            <img src="assets/icons/payment/paypal.svg" />
-            <img src="assets/icons/payment/pix.svg" />
-            <img src="assets/icons/payment/boleto.svg" />
+            <!-- pagamentos -->
+            <div class="mt-12 mb-10 flex flex-wrap gap-8 justify-center px-12">
+              <img src="assets/icons/payment/amex.svg" />
+              <img src="assets/icons/payment/mastercard.svg" />
+              <img src="assets/icons/payment/visa.svg" />
+              <img src="assets/icons/payment/hipercard.svg" />
+              <img src="assets/icons/payment/elo.svg" />
+              <img src="assets/icons/payment/express.svg" />
+              <img src="assets/icons/payment/paypal.svg" />
+              <img src="assets/icons/payment/pix.svg" />
+              <img src="assets/icons/payment/boleto.svg" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="mt-10 mb-4 px-12 space-y-10">
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
-        </p>
-        <div class="flex flex-wrap gap-8 justify-center">
-          <img
-            src="assets/images/partners/lets_encrypt.svg"
-            alt="Let's Encrypt"
-          />
-          <img
-            src="assets/images/partners/vtex_pci_certified.svg"
-            alt="Vtex Pci Certified"
-          />
-          <img src="assets/images/partners/avanti.svg" alt="Avanti" />
-          <img src="assets/images/partners/vtex.svg" alt="Vtex" />
+        <div class="mt-10 mb-4 px-12 space-y-10">
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+          </p>
+          <div class="flex flex-wrap gap-8 justify-center">
+            <img
+              src="assets/images/partners/lets_encrypt.svg"
+              alt="Let's Encrypt"
+            />
+            <img
+              src="assets/images/partners/vtex_pci_certified.svg"
+              alt="Vtex Pci Certified"
+            />
+            <img src="assets/images/partners/avanti.svg" alt="Avanti" />
+            <img src="assets/images/partners/vtex.svg" alt="Vtex" />
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
