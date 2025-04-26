@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cardData.forEach((card) => {
       const div = document.createElement("div");
       div.className =
-        "border border-[#DDDDDD] rounded-[10px] w-[238px] flex-none flex flex-col p-2 items-center justify-center";
+        "border border-[#DDDDDD] rounded-[10px] md:w-[238px] w-[158px] flex-none flex flex-col p-2 items-center justify-center";
       div.innerHTML = `
         <div class="relative">
           <span class="bg-[#00264E] text-white text-[10px] font-bold px-2 py-1 rounded absolute">NOVO</span>
