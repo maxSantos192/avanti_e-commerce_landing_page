@@ -1,3 +1,22 @@
+const buttons = document.querySelectorAll("[data-search-button]");
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const container = button.closest("div.flex.flex-col");
+    const input = container.querySelector("[data-search-input]");
+    const result = container.querySelector(".search-result");
+    const value = input.value.trim();
+
+    if (value) {
+      result.textContent = `Você buscou por: '${value}'`;
+      result.classList.add("pt-3");
+    } else {
+      result.textContent = "";
+      result.classList.remove("pt-3");
+    }
+  });
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll("footer button");
 
